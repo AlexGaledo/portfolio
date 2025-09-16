@@ -2,6 +2,8 @@
 
 
 import { useState } from "react";
+import alex from '../assets/alex_sample_photo.jpeg';
+import reactPlaceholder from '../assets/react.svg';
 
 export default function Portfolio() {
     const [active, setActive] = useState('all')
@@ -124,7 +126,7 @@ export default function Portfolio() {
         {/* Hero Section */}
         <section className="hero" id="home">
             <div className="container">
-                <img src="src/assets/alex_sample_photo.jpeg" alt="Hero" className="hero-image" />
+                <img src={alex} alt="Hero" className="hero-image" />
             <h1 className="heading">Hello, I'm <strong>Alex Galedo</strong></h1>
             <span className="subheading">and this is My Portfolio</span>
             </div>
@@ -148,7 +150,7 @@ export default function Portfolio() {
             {showProjects(active).map((project) => (
                 <div className="portfolio-item mockup" key={project.id}>
                     <div className="portfolio-thumb">
-                        <img src={project.image || "/src/assets/react.svg"} alt={project.title} />
+                        <img src={project.image || reactPlaceholder} alt={project.title} />
                     </div>
                     <div className="portfolio-info">
                         <h4>{project.title}</h4>
@@ -200,7 +202,7 @@ export default function Portfolio() {
             <div className="container">
             <div className="about-content">
                 <div className="about-image">
-                <img src="/src/assets/react.svg" alt="Image placeholder" />
+                <img src={reactPlaceholder} alt="Image placeholder" />
                 </div>
                 <div className="about-info">
                 <div className="section-title">
