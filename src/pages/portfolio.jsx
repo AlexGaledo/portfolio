@@ -77,7 +77,7 @@ export default function Portfolio() {
         company: '2025 UI/UX Hawk-A-Thon',
         position: 'Project Manager',
         date: '2025',
-        description: '1-day Hackathon, howcasing UI/UX & SDG Solutions.'
+        description: '1-day Hackathon, showcasing UI/UX & SDG Solutions.'
         },
 
         {
@@ -206,11 +206,15 @@ export default function Portfolio() {
                 <div className="section-title">
                     <h2>About <strong>Me</strong></h2>
                 </div>
-                <p className="about-lead">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                <p className="about-desc">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                <p className="about-lead">3rd year BS-Computer Science with a passion for building and creating tech solutions.</p>
+                <p className="about-desc">Hello, i'm Alex!, an aspiring software developer and tech enthusiast based in the Philippines. 
+                    <br/>I love building web applications and exploring new technologies. 
+                    <br/>I've participated in several development projects from personal projects to hackathons and organizational projects.
+                    <br/>I'm always open to learn new technologies and grow my skills along the way.
+                </p>
                 <div className="about-actions">
                     <a href="#contact" className="btn btn-primary">Hire Me</a>
-                    <a href="#" className="btn btn-secondary">Download CV</a>
+                    <a href="https://drive.google.com/uc?export=download&id=13EgQU6rQh4q-v85R59Rdt1LHrUiAgEvd" className="btn btn-secondary" download='AlexGaledo_CV'>Download CV</a>
                 </div>
                 </div>
             </div>
@@ -245,10 +249,9 @@ export default function Portfolio() {
                 <div className="contact-details">
                 <h3>My Contact Details</h3>
                 <ul className="details-list">
-                    <li><span className="details-label">Email</span> site@gmail.com</li>
-                    <li><span className="details-label">Phone</span> +30 976 1382 9921</li>
-                    <li><span className="details-label">Fax</span> +30 976 1382 9922</li>
-                    <li><span className="details-label">Address</span> San Francisco, CA<br />4th Floor8 Lower<br />San Francisco street, M1 50F</li>
+                    <li><span className="details-label">Email</span> galedoalex@gmail.com</li>
+                    <li><span className="details-label">Phone</span> +63 928 767 0529</li>
+                    <li><span className="details-label">Address</span> Cavite, Philippines</li>
                 </ul>
                 </div>
             </div>
