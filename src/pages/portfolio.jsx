@@ -26,22 +26,21 @@ export default function Portfolio() {
     const projects = ([
         {id: 1, title: 'Project 1', 
             category: 'personal', 
-            mage: '/src/assets/react.svg', 
+            image: '', 
             description: 'Description for Project 1'
         },
 
         {id: 2, title: 'Project 2', 
             category: 'hackathon', 
-            image: '/src/assets/react.svg', 
+            image: '', 
             description: 'Description for Project 2'
         },
 
         {id: 3, title: 'Project 3', 
             category: 'organization', 
-            image: '/src/assets/react.svg', 
+            image: '', 
             description: 'Description for Project 3'
         },
-
     ])
 
     const education = ([
