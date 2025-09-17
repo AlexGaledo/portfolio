@@ -263,11 +263,17 @@ export default function Portfolio() {
         <footer className="footer">
             <div className="container">
             <div className="footer-social">
-                <a href="#" className="social-item"><span className="icon-facebook2"></span></a>
-                <a href="#" className="social-item"><span className="icon-twitter"></span></a>
-                <a href="#" className="social-item"><span className="icon-instagram2"></span></a>
-                <a href="#" className="social-item"><span className="icon-linkedin2"></span></a>
-                <a href="#" className="social-item"><span className="icon-vimeo"></span></a>
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                    <img src="https://cdn.simpleicons.org/facebook/1877F2" alt="Facebook" width="24" />
+                    </a>
+
+                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                    <img src="https://cdn.simpleicons.org/instagram/E4405F" alt="Instagram" width="24" />
+                    </a>
+
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                    <img src="https://icons.iconarchive.com/icons/simpleicons-team/simple/128/linkedin-icon.png" alt="LinkedIn" width="24" />
+                    </a>
             </div>
             </div>
         </footer>
